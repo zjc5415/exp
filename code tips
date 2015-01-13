@@ -1,0 +1,11 @@
+gdb:
+  objdump -d a.out 
+  
+  ulimit -c unlimited
+  ulimit unlimited
+  gdb [exec file] [core file]
+  bt
+  
+  gdb -p PID
+  c
+  bt
