@@ -9,3 +9,5 @@ gdb:
   gdb -p PID
   c
   bt
+
+  info shared
